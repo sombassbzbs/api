@@ -8,6 +8,47 @@
     "city_name": " Lamitan City",
     "region_name": "Autonomous Region In Muslim Mindanao (ARMM)"
   },
-]
-
+],
+"bands":{
+  "config": {
+    "appId": "502429466131106",
+    "appPrefix": "CRV",
+    "projectName": "Cerave",
+    "facebookPageId": "467279173135971",
+    "facebookPixelId": "xxx",
+    "facebokAdsSetId": "xxx",
+    "facebookAppId": "1363920131108740"
+  },
+  "theme": {
+    "appId": "502429466131106",
+    "pageId": "467279173135971",
+    "facebookAppId": "1363920131108740",
+    "name": "Cerave",
+    "styles": {
+      "radius": {
+        "sm": "0.125rem",
+        "md": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "1rem"
+      }
+    },
+    "colors": {
+      "primary": "#0070CE",
+      "secondary": "#F5F5F5",
+      "background": "#FFFFFF",
+      "textPrimary": "#333333",
+      "textSecondary": "#6C6C6C",
+      "inputBg": "#FAFAFA",
+      "success": "#4CAF50"
+    },
+    "images": {
+      "landing": "https://cdn.buzzebees-uat.com/metamessenger/502429466131106/image/landing.png",
+      "logo": "https://cdn.buzzebees-uat.com/metamessenger/502429466131106/image/logo.jpg",
+      "placeholder": {
+        "square": "https://placehold.co/600x600",
+        "rectangle": "/brands/default/placeholder-rectangle.svg"
+      }
+    },
+    "successMessage": "Welcome to Cerave!"
+  }}
 }
