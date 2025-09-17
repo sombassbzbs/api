@@ -114,5 +114,60 @@
         }
       }
     }
-  }
+  },
+  "fortuneWheelCampaignFull":{
+    "Success": true,
+    "Data": {
+        "status": "Full",
+        "order": null,
+        "result": null
+    }}
+    ,
+  "fortuneWheelCampaignLose":{
+    "Success": true,
+    "Data": {
+        "status": "Lose",
+        "order": null,
+        "result": null
+    }},
+  "fortuneWheelCampaignPoints":{
+    "Success": true,
+    "Data": {
+        "status": "Points",
+        "order": "0000000003",
+        "result": {
+            "Name": "fortunewheel13",
+            "Points": 100,
+            "Order": "0000000003",
+            "PointUnit": "Crystal",
+            "buzzebees": {
+                "PointService": {
+                    "Crystal": {
+                        "Amount": 100,
+                        "Balance": 4776.0,
+                        "TransactionId": "1Crpi9_a_mkT12wwwMG9Q8274LvBYX1--",
+                        "Reference": "Sm7929ctjfN500juZ5eDf8DMVHeCmm4Tk"
+                    }
+                },
+                "description": "",
+                "traces": [
+                    {
+                        "Id": "FortuneWheel_Temp",
+                        "Current": 2700,
+                        "Change": 100,
+                        "Points": 100,
+                        "ObjectId": null,
+                        "ValueResetReason": null,
+                        "UserDescription": null,
+                        "UserLevel": 0,
+                        "CustomInfo": null,
+                        "LineMessageSetting": null,
+                        "PointUnit": "Crystal",
+                        "PointSuccess": true
+                    }
+                ]
+            }
+        }
+    }
+   }
 }
