@@ -1,55 +1,118 @@
 {
-   "region":[
-      {
-         "city_name":" Cotabato City",
-         "region_name":"Autonomous Region In Muslim Mindanao (ARMM)"
+  "region": [
+    {
+      "city_name": " Cotabato City",
+      "region_name": "Autonomous Region In Muslim Mindanao (ARMM)"
+    },
+    {
+      "city_name": " Lamitan City",
+      "region_name": "Autonomous Region In Muslim Mindanao (ARMM)"
+    }
+  ],
+  "bands": {
+    "config": {
+      "appId": "502429466131106",
+      "appPrefix": "CRV",
+      "projectName": "Cerave",
+      "facebookPageId": "467279173135971",
+      "facebookPixelId": "xxx",
+      "facebokAdsSetId": "xxx",
+      "facebookAppId": "1363920131108740"
+    },
+    "theme": {
+      "appId": "502429466131106",
+      "pageId": "467279173135971",
+      "facebookAppId": "1363920131108740",
+      "name": "Cerave",
+      "styles": {
+        "radius": {
+          "sm": "0.125rem",
+          "md": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "1rem"
+        }
       },
-      {
-         "city_name":" Lamitan City",
-         "region_name":"Autonomous Region In Muslim Mindanao (ARMM)"
-      }
-   ],
-   "bands":{
-      "config":{
-         "appId":"502429466131106",
-         "appPrefix":"CRV",
-         "projectName":"Cerave",
-         "facebookPageId":"467279173135971",
-         "facebookPixelId":"xxx",
-         "facebokAdsSetId":"xxx",
-         "facebookAppId":"1363920131108740"
+      "colors": {
+        "primary": "#0070CE",
+        "secondary": "#F5F5F5",
+        "background": "#FFFFFF",
+        "textPrimary": "#333333",
+        "textSecondary": "#6C6C6C",
+        "inputBg": "#FAFAFA",
+        "success": "#4CAF50"
       },
-      "theme":{
-         "appId":"502429466131106",
-         "pageId":"467279173135971",
-         "facebookAppId":"1363920131108740",
-         "name":"Cerave",
-         "styles":{
-            "radius":{
-               "sm":"0.125rem",
-               "md":"0.25rem",
-               "lg":"0.5rem",
-               "xl":"1rem"
+      "images": {
+        "landing": "https://cdn.buzzebees-uat.com/metamessenger/502429466131106/image/landing.png",
+        "logo": "https://cdn.buzzebees-uat.com/metamessenger/502429466131106/image/logo.jpg",
+        "placeholder": {
+          "square": "https://placehold.co/600x600",
+          "rectangle": "/brands/default/placeholder-rectangle.svg"
+        }
+      },
+      "successMessage": "Welcome to Cerave!"
+    }
+  },
+  "fortuneWheelCampaign": {
+    "Success": true,
+    "Data": {
+      "status": "Campaign",
+      "order": "0000000062",
+      "result": {
+        "CampaignId": 1504565,
+        "ItemNumber": 1,
+        "Serial": "JWWGTLO",
+        "AgencyId": 146933,
+        "AgencyName": "timekiller",
+        "CatId": 9513833,
+        "Name": "Campaign for test fortune wheel - Free starbuck",
+        "NextRedeemDate": null,
+        "CurrentDate": 1758038341,
+        "RedeemCount": 1,
+        "UseCount": 1,
+        "Qty": 9.0,
+        "IsConditionPass": false,
+        "ConditionAlert": "You have reached the redeeming limit",
+        "IsNotAutoUse": false,
+        "PointType": "use",
+        "InterfaceDisplay": null,
+        "RedeemKey": "1504565_1",
+        "PricePerUnit": 0.0,
+        "WalletCard": null,
+        "NextRedeemDatePerCard": null,
+        "RedeemCountPerCard": 1,
+        "UseCountPerCard": 0,
+        "CategoryDetail": null,
+        "MasterCampaignName": null,
+        "RedeemDate": 1758038341,
+        "CampaignName": "Campaign for test fortune wheel - Free starbuck",
+        "PointPerUnit": 0.0,
+        "ConvertPoints": null,
+        "ConvertPrice": null,
+        "FullImageUrl": "https://cdn.buzzebees-uat.com/th/campaigns/1504565?time=20250904043625",
+        "Type": 1,
+        "ExpireIn": null,
+        "PrivilegeMessage": null,
+        "PrivilegeMessageEN": null,
+        "PrivilegeMessageFormat": null,
+        "buzzebees": {
+          "traces": [
+            {
+              "Id": "Redeem",
+              "Current": 100,
+              "Change": 1,
+              "Points": 0,
+              "ObjectId": null,
+              "ValueResetReason": null,
+              "UserDescription": "Redeem Activities",
+              "UserLevel": 0,
+              "CustomInfo": null,
+              "LineMessageSetting": null,
+              "PointUnit": null,
+              "PointSuccess": true
             }
-         },
-         "colors":{
-            "primary":"#0070CE",
-            "secondary":"#F5F5F5",
-            "background":"#FFFFFF",
-            "textPrimary":"#333333",
-            "textSecondary":"#6C6C6C",
-            "inputBg":"#FAFAFA",
-            "success":"#4CAF50"
-         },
-         "images":{
-            "landing":"https://cdn.buzzebees-uat.com/metamessenger/502429466131106/image/landing.png",
-            "logo":"https://cdn.buzzebees-uat.com/metamessenger/502429466131106/image/logo.jpg",
-            "placeholder":{
-               "square":"https://placehold.co/600x600",
-               "rectangle":"/brands/default/placeholder-rectangle.svg"
-            }
-         },
-         "successMessage":"Welcome to Cerave!"
+          ]
+        }
       }
-   }
+    }
+  }
 }
